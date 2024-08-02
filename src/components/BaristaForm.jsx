@@ -38,7 +38,7 @@ const BaristaForm = () => {
             'syrup': '',
             'blended': ''
         });
-        getNextDrink;
+        getNextDrink();
         setCheckedTemperature('');
         setCheckedSyrup('');
         setCheckedMilk('');
