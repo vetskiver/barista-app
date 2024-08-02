@@ -44,16 +44,8 @@ li {
   margin: 0;
 }
 
-#wrong {
-  background-color: rgb(219, 93, 93);
-}
-
-#correct {
-  background-color: hsl(120, 100%, 50%);
-}
-
 .answer-space {
-  background-color: rgb(226, 195, 147);
+  background-color: rgb(226, 195, 147); 
   height: 40px;
   padding-top: 15px; 
   padding-bottom: 15px;
@@ -63,6 +55,13 @@ li {
   margin-left: auto;
   margin-right: auto;
   clear: both;
+}
+#correct {
+  background-color: hsl(120, 100%, 50%) !important;
+}
+
+#wrong {
+  background-color: rgb(219, 93, 93) !important;
 }
 
 li {
