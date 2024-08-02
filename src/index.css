@@ -49,18 +49,19 @@ li {
 }
 
 #correct {
-  background-color: rgb(191, 116, 191);
+  background-color: hsl(120, 100%, 50%);
 }
 
 .answer-space {
   background-color: rgb(226, 195, 147);
-  height: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  height: 40px;
+  padding-top: 15px; 
+  padding-bottom: 15px;
   width: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 15px;
   margin-left: auto;
+  margin-right: auto;
   clear: both;
 }
 
